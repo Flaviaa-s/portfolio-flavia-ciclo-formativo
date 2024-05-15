@@ -1,0 +1,151 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: 0;
+}
+
+h3{
+    color:#450920;
+    text-align: start;
+    padding: 32px;
+}
+
+.header-menu{
+    background-color: rgb(69, 9, 32);
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding: 8px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    height: 10px;
+}
+.header-menu nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.lista-menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    list-style: none;
+    align-items: center;
+}
+.lista-menu li>a{
+    color:white;
+    font-size: 18px;
+    text-decoration: inherit;
+}
+.principal{
+    display: flex;
+    background-color:white;
+    height: 100vh;
+}
+.subcontainer-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.div-img{
+    position: absolute;
+}
+img{
+    height: 180px;
+    display: block; /* Isso garante que a imagem seja tratada como um bloco e não flutue ao lado do texto */
+    margin-top: 10px; 
+    border-radius: 50%; /* Isso faz com que a imagem tenha uma forma circular */
+    
+}
+.texto-1{
+    padding: 32px;
+}
+.principal-2{
+    display: flex ;
+    background-color:white;
+    height: 140vh; /* Ajuste de valor conforme necessário para aumentar o espaço */
+    width: 100%;
+   }
+.subcontainer-principal2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.subcontainer-principal2 li>a{
+    font-size: 18px;
+    text-decoration: inherit;
+}
+.lista-item{
+    padding: 32px;
+}
+
+.lista-item ul li{
+    margin-bottom: 52px;
+}
+
+.principal-3{
+    display: flex;
+    background-color: white;
+    height: 70vh;/* Ajuste de valor conforme necessário para diminuir o espaço*/
+    width: 100%;
+
+}
+.subcontainer-principal3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.subcontainer-principal3 li>a{
+    font-size: 18px;
+    text-decoration: inherit;
+}
+.subcontainer-principal3{
+        margin-bottom: 5px; /* Ajuste este valor conforme necessário para reduzir o espaço entre o subtítulo
+         e o conteúdo abaixo */
+}
+.footer{
+    background-color: rgb(69, 9, 32);
+    display: flex;
+    align-items: center;
+    height: 26vh;
+}
+.contato{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-left: 10px;
+    padding-right: 10px;    
+    width: 100%;
+}
+.lista-footer{
+    color: white;
+    width: 100%;
+    padding: 8px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    height: 10px;
+}
+.lista-footer{
+   
+   
+    justify-content: flex-end;
+}
+#icone-rodape{
+    font-size: 22px;
+    margin-right: 10px;
+}
+.links{
+    color: white;
+    text-decoration: none;
+}
+.subtitulo{
+    color: rgb(165, 56, 96);
+}
